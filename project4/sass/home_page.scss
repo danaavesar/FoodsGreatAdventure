@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Schoolbell);
+$food_right: 300px;
+
+#header {
+	position: fixed;
+	height: 60px;
+	max-width: 100%;
+	margin-top: 0px;
+	top:0px;
+	width: 100%;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.35);
+	z-index: 200;
+	font-size: 20px;
+}
+
+input, textarea {
+	width: 100px;
+	height: 20px;
+}
+input {
+	font-size: 25px;
+	margin-right: 10px;
+	position: absolute;
+	margin-left: 100px;
+
+}
+
+#login {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	margin-left: 50px;
+	margin-top: 0px;
+	width: 450px;
+}
+
+
+p {
+	font-size: 30px;
+	position: relative;
+	color: #70E4CE;
+} 
+
+a {
+	color: #FF4D72;
+}
+
+ul {
+	z-index: 15;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Schoolbell';
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: #70E4CE;
+	position: relative;
+	margin-top: -20px;
+}
+
+#hamburger_man {
+	position: absolute;
+	width: 200px;
+	top: 300px;
+	left: 40px;
+}
+#tomato_man {
+	position: absolute;
+	width: 160px;
+	top: 185px;
+	left: 175px;
+}
+#boat {
+	position: absolute;
+	width: 300px;
+	top: 200px;
+	left: 660px;
+}
+#adventure_gif {
+	display: block;
+	width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+	position: relative;
+	cursor: pointer;
+}
+#map {
+	width: 350px;
+	cursor: pointer;
+}
+#treasure_chest{
+	width: 300px;
+	margin-top: 30px;
+}
+
+.container {
+	margin: auto; 
+	position: relative; 
+	width: 1000px;
+	margin-top: 200%;
+	padding-top: 100px;
+}
+#home_container{
+	margin: 30px;
+}
+#map_container {
+	display: none;
+}
+#map_container h2{
+	width: 400px;
+	margin-top: 30px;
+}
+
+#map_container div:nth-of-type(1) {
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+}
+
+#map_container div:nth-of-type(2) {
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+	width: 500px;
+}
+
+#map_arrow{
+	width: 150px;
+}
+
+#mouth_page_container{
+	display: none;
+	margin-top: 300px;
+	width: 1100px;
+}
+
+#fridge_container {
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+	width: 300px;
+	position: relative;
+	top: 200px;
+	margin-right: 60px;
+}
+
+#mouth_container{
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+	width: 500px;
+	position: relative;
+}
+
+#mouth {
+	width:400px;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+}
+
+#tounge {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	top: 400px;
+	left: 50px;
+}
+
+#move_mouth_arrow {
+	position: absolute;
+	left: 20px;
+	width: 400px;
+	z-index: -3;
+}
+
+#drag_drop_arrow {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+/*#fridge_container {
+	position: absolute;
+	width: 300px;
+	height: 320px;
+}*/
+
+.fridge {
+	position: absolute;	
+	left: 0px;
+	top: 160px;
+	width: 300px;
+}
+
+.food {
+	width: 170px;
+	position: absolute;
+	z-index: 1;
+}
+#fridge1{
+	z-index: 2;
+}
+
+#fridge2{
+	top: 310px;
+	z-index: 2;
+}
+
+#fridge3{
+	top: 435px;
+	z-index: 2;
+}
+
+#tomato {
+  left: 68px;
+  top: 315px;
+}
+
+#broccoli {
+  left: 163px;
+  top: 328px;
+}
+
+#banana {
+  left: 21px;
+  top: 373px;
+}
+
+#eggplant {
+  left: 111px;
+  top: 377px;
+}
+
+#strawberry {
+  left: -32px;
+  top: 323px;
+}
+
+#toast {
+  left: 46px;
+  top: 215px;
+}
+
+#pasta {
+  left: 144px;
+  top: 222px;
+}
+
+#chicken {
+  left: 23px;
+  top: 108px;
+}
+
+#hamburger {
+  left: 138px;
+  top: 94px;
+}
+
+#fries {
+  left: -9px;
+  top: 222px;
+}
+

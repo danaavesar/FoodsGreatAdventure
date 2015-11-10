@@ -1,0 +1,147 @@
+#mouth_page_container {
+ /* display: none;*/
+  margin-top: 300px;
+  width: 1100px;
+}
+#mouth_container {
+  display: inline-block;
+  margin: auto;
+  width: 350px;
+  height: 500px;
+  position: relative;
+/*  background-color: yellow;
+*/  margin-top: 100px;
+z-index: 11;
+}
+
+#fridge_container {
+  margin: auto;
+  width: 350px;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+/*  background-color: red;*/
+}
+#fridge_stuff{
+  position: absolute;
+  left: 20px;
+  top: 40px;
+
+}
+#mouth {
+  width: 300px;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+
+#tounge {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 250px;
+  left: 35px;
+  z-index: 11;
+}
+
+#move_mouth_arrow {
+  position: absolute;
+  left: 40px;
+  width: 260px;
+  top: 10px;
+  z-index: -3;
+  display: none;
+}
+
+#drag_drop_arrow {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+.fridge {
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 300px;
+}
+
+.food {
+  width: 170px;
+  position: absolute;
+  z-index: 12;
+  cursor: pointer;
+}
+
+#click_continue{
+  position: absolute;
+  width: 270px;
+  top: 490px;
+  left: 60px;
+  display: none;
+  cursor: pointer;
+  z-index: 12;
+}
+
+#fridge1 {
+  z-index: 12;
+}
+
+#fridge2 {
+  top: 310px;
+  z-index: 12;
+}
+
+#fridge3 {
+  top: 435px;
+  z-index: 12;
+}
+
+#tomato {
+  left: 68px;
+  top: 315px;
+}
+
+#broccoli {
+  left: 163px;
+  top: 328px;
+}
+
+#banana {
+  left: 21px;
+  top: 373px;
+}
+
+#eggplant {
+  left: 111px;
+  top: 377px;
+}
+
+#strawberry {
+  left: -32px;
+  top: 323px;
+}
+
+#toast {
+ left: 46px;
+  top: 215px;
+}
+
+#pasta {
+  left: 144px;
+  top: 222px;
+}
+
+#chicken {
+  left: 23px;
+  top: 108px;
+}
+
+#hamburger {
+  left: 138px;
+  top: 94px;
+}
+
+#fries {
+  left: -9px;
+  top: 222px;
+}

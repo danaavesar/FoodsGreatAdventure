@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Schoolbell);
+#header {
+  position: fixed;
+  height: 60px;
+  max-width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  width: 100%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.35);
+  z-index: 200;
+  font-size: 25px;
+}
+
+input, textarea {
+  width: 200px;
+  height: 50px;
+}
+
+input {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#logo {
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 350px;
+}
+
+#login {
+  position: absolute;
+  width: 900px;
+  margin-right: 50px;
+  margin-top: 10px;
+  left: 1700px;
+  top: 60px;
+}
+
+#logout {
+  position: relative;
+  font-size: 37px;
+  top: 30px;
+  float: left;
+  margin-left: 200px;
+}
+
+#reg_log {
+  font-size: 25px;
+  position: absolute;
+  left: 1735px;
+  margin-left: 0px;
+}
+
+p {
+  font-size: 50px;
+  position: relative;
+  color: #0086FF;
+  margin-left: 750px;
+  float: left;
+}
+
+a {
+  color: #FF4D72;
+}
+
+#register_bg {
+  position: absolute;
+  width: 200px;
+  top: 38px;
+  left: 1500px;
+}
+
+#register_php {
+  position: absolute;
+  width: 200px;
+  top: 65px;
+  left: 1500px;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  font-family: 'Schoolbell';
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+
+ul {
+  z-index: 15;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Schoolbell';
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #70E4CE;
+  position: relative;
+  margin-top: -20px;
+}
+
+.food {
+  width: 175px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 15;
+  /* position: absolute;*/
+}
+
+#tomato {
+  left: 68px;
+  top: 315px;
+}
+
+#broccoli {
+  left: 163px;
+  top: 328px;
+}
+
+#banana {
+  left: 21px;
+  top: 373px;
+}
+
+#eggplant {
+  left: 111px;
+  top: 377px;
+}
+
+#strawberry {
+  left: -32px;
+  top: 323px;
+}
+
+#toast {
+  left: 46px;
+  top: 215px;
+}
+
+#pasta {
+  left: 144px;
+  top: 222px;
+}
+
+#chicken {
+  left: 23px;
+  top: 108px;
+}
+
+#hamburger {
+  left: 138px;
+  top: 94px;
+}
+
+#fries {
+  left: -9px;
+  top: 222px;
+}
+
+#mouth {
+  z-index: 10;
+  position: absolute;
+  width: 400px;
+}
+
+#tounge {
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  top: 700px;
+  left: 2150px;
+}
+
+#mouth_cont {
+  float: left;
+  width: 600px;
+}
+
+#food_container {
+  position: relative;
+  width: 700px;
+  height: 1000px;
+  float: left;
+  margin: 50px;
+}
+
+#adventure_gif {
+  display: block;
+  width: 700px;
+  /*	margin: auto;*/
+  float: left;
+  margin-top: 75px;
+  margin-left: 65px;
+  position: relative;
+}
+
+#container {
+  top: 10px;
+  position: relative;
+  padding: 50px;
+}
+
+/*# sourceMappingURL=style_mouth2.css.map */

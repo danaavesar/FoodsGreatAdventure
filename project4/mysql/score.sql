@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `score` (
+   `username` VARCHAR(20) NOT NULL,
+   `score` 	INT(11)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

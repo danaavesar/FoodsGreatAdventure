@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title> mouth </title>
+	<script src="js/jquery/jquery-1.11.1.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<style type="text/css">
+		div {
+			background-color: red;
+			cursor: pointer;
+		}
+		div:hover {
+			background-color: yellow;
+		}
+
+		li {
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+   background-color: #f7941e;
+   cursor: pointer;
+}
+
+	</style>
+
+	<script type="text/javascript" src="paperjs/dist/paper-full.js"></script>
+	 <script type="text/paperscript" canvas="canvas">
+        
+
+    </script>
+	
+	
+</head>
+
+<body>
+	<div id="div"> hello </div>
+	<ul>
+		<li> white note </li>
+		<li> yellow note </li>
+		<li> orange note </li>
+		<li> blue note </li>
+		<li> pink note </li>
+	</ul>
+
+	<img id="mouth" src="mouth/mouth_00.png"/>
+
+<script>
+
+//mouth
+	var pp= "mouth/mouth_";
+	var images = new Array();
+
+	//load images into array
+	for(var i=0; i<35; i++){
+		if(i<10){
+		images.push(pp+'0'+i+'.png');
+		src = images[i];
+		$("#mouth").attr("src", src); //finds the attribute src and replaces it with the var src
+		}
+		else{
+			images.push(pp+ i +'.png');
+			src = images[i];
+			$("#mouth").attr("src", src);
+		}
+	}
+
+	//make a million unnecissary variables
+	var offset = $("#mouth").offset(); //.offset = retrieve pos relative to doc
+	var numberOfFrames = images.length;
+	var widthOfImage = $("#mouth").width();
+	var yLocInImage;
+	var frameNumber = 0; //what pic youre on in the animation sequence
+	var interval = widthOfImage/numberOfFrames; //ex: 340px image, so then every ten px changes to a new frame
+
+	//move image when you hover over it
+	$("#mouth").click(function(){
+		 console.log("ive been pushed");
+	});
+
+
+
+	$("#mouth").mousemove(function(e){
+		yLocInImage = e.pageY - offset.top; //offset.top gives you the top coordinate measured previously with .offset(). this saying mouselocation x - x location of image. this is finding the distane of the mouse from the image
+		frameNumber = parseInt(yLocInImage/interval);
+		src = images[frameNumber]; //number in the array
+		$(this).attr("src", src); //this = the object to which the code you are looking at right now applies which is mouth in this case
+	}); 
+
+
+
+// drag and drop food
+	
+	$(function(){
+		$("li").draggable();
+	 
+	});
+
+	</script>
+	<canvas id="canvas" width="1000" height="800"></canvas>
+</body>
+</html>

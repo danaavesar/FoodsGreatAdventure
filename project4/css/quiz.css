@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Schoolbell);
+#header {
+  position: fixed;
+  height: 150px;
+  max-width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  width: 100%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.35);
+  z-index: 200;
+  font-size: 25px;
+}
+
+form {
+  position: absolute;
+  top: 400px;
+  left: 1000px;
+}
+
+input, textarea {
+  width: 200px;
+  height: 50px;
+}
+
+input {
+  font-size: 25px;
+  margin-right: 10px;
+  visibility: hidden;
+}
+
+#score {
+  margin-top: 200px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+#logo {
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#login {
+  position: absolute;
+  width: 900px;
+  margin-right: 50px;
+  margin-top: 10px;
+  left: 1700px;
+  top: 60px;
+}
+
+#submit {
+  visibility: visible;
+}
+
+#register_bg {
+  position: absolute;
+  width: 200px;
+  top: 38px;
+  left: 1500px;
+}
+
+#register_php {
+  position: absolute;
+  width: 200px;
+  top: 65px;
+  left: 1500px;
+  cursor: pointer;
+}
+
+#logout {
+  position: relative;
+  font-size: 37px;
+  top: 30px;
+  float: left;
+  margin-left: 200px;
+}
+
+#welcome {
+  font-size: 50px;
+  position: relative;
+  color: #0086FF;
+  margin-left: 750px;
+  float: left;
+}
+
+a {
+  color: #FF4D72;
+}
+
+input[type=submit] {
+  font-family: 'Schoolbell';
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+
+ul {
+  z-index: 15;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Schoolbell';
+  text-align: center;
+}
+
+#hormone1 {
+  width: 400px;
+}
+
+#brush {
+  width: 400px;
+}
+
+.draggable {
+  cursor: pointer;
+  width: 400px;
+  z-index: 11;
+}
+
+.droppable {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  -webkit-border-top-left-radius: 80px;
+  -webkit-border-top-right-radius: 80px;
+  -webkit-border-bottom-right-radius: 50px;
+  -webkit-border-bottom-left-radius: 90px;
+  -moz-border-radius-topleft: 80px;
+  -moz-border-radius-topright: 80px;
+  -moz-border-radius-bottomright: 50px;
+  -moz-border-radius-bottomleft: 90px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 90px;
+  background-color: aqua;
+}
+
+#pepsin {
+  width: 100px;
+}
+
+#chyme {
+  width: 600px;
+}
+
+#acid {
+  width: 100px;
+}
+
+#options {
+  top: 300px;
+  position: absolute;
+  left: 1500px;
+}
+
+#drops {
+  position: relative;
+  float: left;
+  height: 1000px;
+  width: 1000px;
+  z-index: 0;
+  margin-top: 300px;
+}
+
+#must_login {
+  margin-top: 200px;
+}
+
+#login2 {
+  width: 200px;
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=quiz.css.map */
